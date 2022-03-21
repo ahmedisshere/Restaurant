@@ -7,7 +7,7 @@ const Navigation = () => {
         <div>
             <Navbar dark color="dark">
                 <div className="container">
-                <NavbarBrand href="/"> Burger King Nigeria </NavbarBrand>
+                <NavbarBrand href="/"> Burger King </NavbarBrand>
                 </div>
                 
             </Navbar>
