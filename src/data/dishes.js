@@ -49,10 +49,10 @@ const DISHES = [
         
             id: 1,
             name: 'Chicken BBQ Pizza',
-            image: 'assets/images/0burger.jpg',
+            image: 'assets/images/1pizza.jpg',
             category: 'meal',
             label: 'Hot',
-            price: '199',
+            price: '399',
             description: 'Deep fried zucchini coated with mildly spiced chickpea flour batter accompained with a sweet-tangy tamarind sauce',
             comments: [
                 {
@@ -96,10 +96,10 @@ const DISHES = [
     {
         id: 2,
             name: 'French Fries',
-            image: 'assets/images/0burger.jpg',
+            image: 'assets/images/2fries.jpg',
             category: 'appetizer',
             label: 'Hot',
-            price: '199',
+            price: '95',
             description: 'A quintissential confusion experience , it is a vada or is it a donut?',
             comments: [
                 {
@@ -142,10 +142,10 @@ const DISHES = [
     {
         id: 3,
         name: 'Cheese Cake',
-        image: 'assets/images/0burger.jpg',
+        image: 'assets/images/3cake.jpg',
         category: 'dessert',
         label: 'Hot',
-        price: '199',
+        price: '255',
         description: 'A delectable, semi-sweet New York Style Cheese Cake , with graham cracker crust and spiced with Indian cardamoms',
         comments: [
             {
