@@ -8,9 +8,9 @@ const MenuItem = props => {
         <div>
             <card>
                 <CardBody>
-                    <CardImg width="100%" alt={props.name} src={props.img}/>
+                    <CardImg width="100%" alt={props.dish.name} src={props.dish.img}/>
                     <CardImgOverlay>
-                        <CardTitle>{props.name}</CardTitle>
+                        <CardTitle>{props.dish.name}</CardTitle>
                     </CardImgOverlay>
                 </CardBody>
             </card>
