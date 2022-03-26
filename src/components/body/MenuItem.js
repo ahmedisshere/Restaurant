@@ -3,17 +3,19 @@ import { Card, CardImg , CardImgOverlay, CardBody , CardTitle } from "reactstrap
 
 
 const MenuItem = props => {
-    console.log(props);
     return (
         <div>
-            <card>
+            <Card>
                 <CardBody>
-                    <CardImg width="100%" alt={props.dish.name} src={props.dish.img}/>
+                    <CardImg width="100%" 
+                    alt={props.dish.name} 
+                    src={props.dish.image} 
+                    style={{ opacity: "0.9" }}/>
                     <CardImgOverlay>
                         <CardTitle>{props.dish.name}</CardTitle>
                     </CardImgOverlay>
                 </CardBody>
-            </card>
+            </Card>
         </div>
     );
 }
