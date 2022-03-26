@@ -5,12 +5,12 @@ import { Card, CardImg , CardImgOverlay, CardBody , CardTitle } from "reactstrap
 const MenuItem = props => {
     return (
         <div>
-            <Card>
+            <Card style={{ margin: "10px" }}>
                 <CardBody>
                     <CardImg width="100%" 
                     alt={props.dish.name} 
                     src={props.dish.image} 
-                    style={{ opacity: "0.9" }}/>
+                    style={{ opacity: "0.7" }}/>
                     <CardImgOverlay>
                         <CardTitle>{props.dish.name}</CardTitle>
                     </CardImgOverlay>
